@@ -1,0 +1,32 @@
+.confirm-button, .cancel-button {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.confirm-button:hover {
+    background-color: rgba(255, 0, 0, 0.1);
+    color: red;
+}
+
+.cancel-button:hover {
+    background-color: rgba(0, 0, 255, 0.1);
+    color: rgb(212, 0, 212);
+}
+
+.card-tecnology:hover {
+    background-color: #f8f8f8;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.link-footer:hover {
+    color: rgb(232, 5, 5) !important;
+}
+
+@keyframes progress {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
+}
