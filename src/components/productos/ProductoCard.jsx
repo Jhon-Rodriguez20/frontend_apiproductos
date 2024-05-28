@@ -122,11 +122,12 @@ function ProductoCard({ productoEntity, mostrar }) {
                                 left: 0,
                                 width: '100%',
                                 height: '100%',
-                                bgcolor: 'rgba(233, 233, 233, 0.5)',
+                                bgcolor: 'rgba(232, 5, 5, 0.8)',
+                                color: 'white',
                                 display: 'flex',
                                 alignItems: 'center',
                                 justifyContent: 'center',
-                                transition: '0.3s ease-in-out'
+                                transition: '0.3s ease-in'
                             }}
                         >
                             <Typography variant="h5" className='fw-bold'>{productoEntity.nombreProducto}</Typography>
